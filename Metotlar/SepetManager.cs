@@ -16,6 +16,8 @@ namespace Metotlar
         //Urun class ı kullanmadan da yapılabilir. Ama o zaman Urun'e eklenen yeni özellikleri her yerde ayrı ayrı düzeltmek gerekecek.
         //O yüzden class yapmakta fayda var. Buna encapsulation deniyor.
 
+
+        //Bu class yapısı iyi bir örnek değil mesela
         public void Ekle2(string urunAdi, string aciklama, double fiyat)
         {
             Console.WriteLine("Sepete eklendi2 : " + urunAdi + "  " + aciklama + "  " + fiyat);

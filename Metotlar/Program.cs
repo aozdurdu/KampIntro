@@ -22,6 +22,7 @@ namespace Metotlar
             urun2.StokAdedi = 200;
 
             Urun[] urunler = new Urun[] {urun1,urun2};
+            
 
             //type-safe - her değişkene tip ataması yapılmalı
             foreach (Urun urun in urunler)
@@ -31,7 +32,6 @@ namespace Metotlar
                 Console.WriteLine(urun.Aciklama);
                 Console.WriteLine(urun.StokAdedi);
                 Console.WriteLine("--------------------------");
-
             }
 
             Console.WriteLine("---------------Metotlar-------------------");
