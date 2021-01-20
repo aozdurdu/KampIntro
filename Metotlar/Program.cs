@@ -43,9 +43,12 @@ namespace Metotlar
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
 
+            //Aşağıdakiler iyi örnek değil
             sepetManager.Ekle2("Armut", "Sarı Armut", 12);
             sepetManager.Ekle2("Elma", "Yeşil Elma", 15);
             sepetManager.Ekle2("Karpuz", "Kırmızı karpuz", 30);
+
+            Console.ReadLine();
         }
     }
 }
