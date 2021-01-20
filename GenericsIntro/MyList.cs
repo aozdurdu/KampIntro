@@ -25,5 +25,6 @@ namespace GenericsIntro
 
             items[items.Length - 1] = item; //Now we can add the new and last item in here
         }
+
     }
 }
